@@ -117,3 +117,50 @@ body {
         height: 50px
     }
 }
+
+
+
+.steklo-back {
+    position: absolute;
+width: 1656px;
+height: 717px;
+left: 144px;
+top: 164px;
+
+background: #567A76;
+border-radius: 20px;
+}
+
+.steklo-form {
+    position: absolute;
+width: 898px;
+height: 545px;
+left: 90px;
+top: 85px;
+
+background: #FFFFFF;
+border-radius: 20px;
+}
+
+.steklo-card {
+    position: absolute;
+width: 508.7px;
+height: 544.75px;
+left: 970px;
+top: 0px;
+
+background: #4B5D6B;
+border-radius: 20px;
+transform: rotate(-0.16deg);
+}
+
+.steklo-back2 {
+position: absolute;
+width: 1656px;
+height: 780px;
+left: 144px;
+top: 954px;
+
+background: #567A76;
+border-radius: 20px;
+}
