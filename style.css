@@ -164,3 +164,9 @@ top: 954px;
 background: #567A76;
 border-radius: 20px;
 }
+
+.sfooter {
+    height: 150px;
+    width: 100%;
+    background-color: #383838;
+}
