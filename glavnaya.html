@@ -30,9 +30,68 @@
         </div>
     </div>
 
+<!-- Онлайн заказ -->
 
+<div style="display: none;" class="action-modal modal modal--440 " id="action-order">
+    <div class="modal__header action-modal__header">
+      <figure class="action-modal__figure-icon">
+        <img class="action-modal__icon" src="assets/images/icons/action-modals/order.png">
+      </figure>
+      <h2 class="modal__title action-modal__title ">Онлайн заказ</h2>
+    </div>
+      <div class="modal__body action-modal__body">
+  
+        <div class="action-modal__content">
+          <div class="primary-container">
+        <div class="action-modal__annonce">Оставьте свои контактные данные и наш менеджер свяжется с Вами для уточнения деталей заказа </div>
+        <form class="form" novalidate="novalidate">
+        <div class="form-group">
+          <label class="form-label" for="user_name--order">Имя:</label>
+          <input type="text" class="form-control" id="user_name--order" name="user_name--order" placeholder="Иван Иванов">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="user_phone--order">Телефон:</label>
+          <input type="text" class="form-control" id="user_phone--order" name="user_phone--order" placeholder="+7 987 654 32 10">
+  
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="user_email--order">Email:</label>
+          <input type="text" class="form-control" id="user_email--order" name="user_email--order" placeholder="example@mail.ru">
+  
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="user_comments--order">Комментарии:</label>
+          <textarea class="form-control" id="user_comments--order" name="user_comments--order" placeholder="Не обязательно" rows="5" cols="40"></textarea>
+        </div>
+        <div class="form-group">
+          <div class="agree agree-rules--order">
+            <input type="checkbox" onchange="$('#button_order').attr('disabled',!$('#agree-rules--order').is(':checked'))" checked="" name="checkbox-rules" id="agree-rules--order">
+            <label for="agree-rules--order" class="decor-label"></label>
+            <label for="agree-rules--order" class="text-label">согласен с
+              <a href="docs_pdf/politic.pdf " class="agree__link" target="_blank">обработкой персональных данных</a>
+            </label>
+          </div>
+        </div>
+        <button id="button_order" class="c-button c-button--primary form-button form-button--submit modal__button mt-2">Сделать онлайн-заказ</button>
+      </form>
+      </div>
+      <div class="success-container">
+          <div class="preloader action-modal__preloader"></div>
+          <div class="order-data" style="display: none;">
+            <div class="order-data__id">
+              Номер заказа: <span id="order-data__id">4661</span>
+            </div>
+            <p class="order-data__success-text">В ближайшее время наш менеджер свяжется с Вами для уточнения деталей заказа, после чего его можно будет оплатить и запустить в работу.</p>
+            <button class="c-button c-button--dark modal__button-close modal-close ">Вернуться на сайт</button>
+            <p class="order-data__success-text">Чтобы в следующий раз было легко и быстро найти нас - <a class="addToBookmark" href="javascript:;" onclick="AddToBookmark('http://стекло24.москва/')">добавьте наш сайт в избранное</a>. Спасибо!</p>
+          </div>
+        </div>
+        </div>
+  
+    </div>
+</div>
     
-</body>
+
 
     <main>
 
@@ -78,7 +137,8 @@
 </div>
 
     </main>
-    
+
+</body>    
     <!-- <footer class="footer site-footer">
         <div class="footer__body">
           <div class="footer__background" id="map-image" style="background-image: url(assets/images/map/map-office.png)"></div>
