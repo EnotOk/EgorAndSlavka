@@ -78,12 +78,207 @@
 </div>
 
     </main>
-    <script src="script.js"></script>
-
-    <footer>
-        <div class="footer">
-
+    
+    <!-- <footer class="footer site-footer">
+        <div class="footer__body">
+          <div class="footer__background" id="map-image" style="background-image: url(assets/images/map/map-office.png)"></div>
+          <div class="container">
+            <div class="row align-items-center text-center">
+              <div class="col-12 col-md-6">
+                <div id="contacts" class="footer__aside">
+                  <div class="tabs contacts-tabs">
+                    <ul class="tabs__navigation">
+                      <li class="tabs__navigation-item contacts-toggler current" data-map-image="assets/images/map/map-office.png" data-map="office">
+                        <a class="tabs__navigation-switcher" href="javascript:;">Пункт выдачи</a>
+                      </li>
+                    </ul>
+      
+                    <div class="tabs__content">
+                      <div class="tabs__item" id="contacts-office">
+                        <div class="footer__contacts">
+                          <div class="footer__line">
+                            <strong>г. Москва, Дмитровское шоссе, д.13.<br>Жилой комплекс «Дыхание»</strong>
+                          </div>
+                          <div class="footer__line">
+                            <div class="footer__phones footer-list">
+                              <div class="footer-list__title">
+                                <strong>Телефон: </strong>
+                              </div>
+                              <div class="footer-list__content">
+                                
+                                  <div class="footer-list__value">
+                                    <a class="phone mgo-number-10723" href="tel:+74951498455">+7 (495) 149-84-55</a>
+                                  </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <div class="footer__line">
+                            <div class="footer__phones footer-list">
+                              <div class="footer-list__title">
+                                <strong>Чат в WhatsApp: </strong>
+                              </div>
+                              <div class="footer-list__content">
+      
+                                  <div class="footer-list__value">
+                                    <a target="_blank" href="https://wa.me/79253825148" onclick="ym(38124115,'reachGoal','whatsapp_clicked'); return true;">+7 (925) 382-51-48</a>
+                                  </div>
+      
+                              </div>
+                            </div>
+                          </div>
+                          <div class="footer__line">
+                            <strong>E-mail: </strong>
+                            <a class="email" href="mailto:steklo-24@yandex.ru"><a href="mailto:steklo-24@yandex.ru">steklo-24@yandex.ru</a></a>
+                          </div>
+                          <div class="footer__line">
+                            <div>
+                              <strong>Режим работы офиса / Пункта выдачи: </strong>
+                            </div>
+                            <div>ежедневно с 10:00 до 19:00</div>
+                          </div>
+                          <div class="footer__line footer__line--last">
+                            <strong>Режим работы производства: 
+                            </strong>Пн-Сб
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabs__item" id="contacts-showroom">
+                        <div class="footer__contacts">
+                          <div class="footer__line">
+                            <div>
+                              <strong>г. Москва, ул. Автозаводская д.&nbsp;23&nbsp;корп.&nbsp;7&nbsp;павильон&nbsp;43.</strong>
+                            </div>
+                            <div>
+                              <strong>ТЦ&nbsp;«Дизайн Молл»</strong>
+                            </div>
+                          </div>
+                          <div class="footer__line">
+                            <div class="footer__phones footer-list">
+                              <div class="footer-list__title">
+                                <strong>Телефон: </strong>
+                              </div>
+                              <div class="footer-list__content">
+                                
+                                  <div class="footer-list__value">
+                                    <a class="phone mgo-number-10723" href="tel:+74951498455">+7 (495) 149-84-55</a>
+                                  </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <div class="footer__line">
+                            <strong>E-mail: </strong>
+                            <a class="email" href="mailto:steklo-24@yandex.ru"><a href="mailto:steklo-24@yandex.ru">steklo-24@yandex.ru</a></a>
+                          </div>
+                          <div class="footer__line footer__line--last">
+                            <div>
+                              <strong>Режим работы: </strong>
+                            </div>
+                            <div>ежедневно с 10:00 до 20:00</div>
+                          </div>
+      
+                        </div>
+                      </div>
+                    </div>
+      
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mt-4 mt-md-0">
+                <div class="d-flex justify-content-center">
+                  <button class="c-button c-button--multiple-values c-button--primary c-button--fixed-width_medium footer__map-toggler">
+      
+          <span class="c-button__value c-button__value--visible ">Развернуть карту</span>
+      
+          <span class="c-button__value c-button__value--hidden ">Свернуть карту</span>
+      
+      </button>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__map-container">
+            <div class="footer__preloader-overlay">
+              <div class="preloader  footer__preloader">
+      </div>
+      
+            </div>
+            <div class="footer__map">
+              <div class="map-container" id="office-map"></div>
+              <div class="map-container" id="showroom-map" style="display: none;"></div>
+            </div>
+          </div>
         </div>
-    </footer>
+        <div class="footer__bottom-panel">
+              
+          <div class="vacancies py-4" style="display: none;">
+            <div class="container">
+              <div class="vacancies__wrapper">
+                          <h3 class="vacancies__title">Актуальные вакансии:</h3>
+                <ul class="vacancies__list">
+                                  <li class="vacancies__list-item">
+                      <a class="vacancies__link" href="/vacancy_pdf/vakansiya_menedjer_administrator.pdf" target="_blank">Менеджер-администратор</a>
+                    </li>                        
+                                  <li class="vacancies__list-item">
+                      <a class="vacancies__link" href="/vacancy_pdf/vakansiya_rezchik_stekla.pdf" target="_blank">Резчик стекла</a>
+                    </li>                        
+                              </ul>
+                        </div>
+            </div>
+          </div>
+          
+          <div class="container">
+            <div class="py-4">
+              <ul class="footer__list">
+                <li class="cards-li"><img src="assets/images/icons/cards.png" alig="left" class="fullLoaded"></li>
+                <li>
+                  <a target="_blank" href="/docs_pdf/zakaz_payment.pdf">Порядок оплаты</a>
+                </li>
+                <li>
+                  <a target="_blank" href="/docs_pdf/technic_conditions.pdf">Технические условия</a>
+                </li>
+                <li>
+                  <a target="_blank" href="/docs_pdf/garanties.pdf">Гарантии</a>
+                </li>
+                <li>
+                  <a target="_blank" href="/docs_pdf/delivery.pdf">Доставка</a>
+                </li>
+                <li>
+                  <a target="_blank" href="/docs_pdf/vozvrat.pdf">Возврат</a>
+                </li>
+                <li>
+                  <a target="_blank" href="/docs_pdf/politic.pdf">Конфиденциальность</a>
+                </li>
+                <li>
+                  <a target="_blank" href="/docs_pdf/public_oferta.pdf">Договор оферты</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__visa-comments">
+            <div class="container">
+              <p>
+                Для оплаты (ввода реквизитов Вашей карты) Вы будете перенаправлены на платежный шлюз ПАО СБЕРБАНК. Соединение с платежным шлюзом и передача информации осуществляется в защищенном режиме с использованием протокола шифрования SSL. В случае если Ваш банк поддерживает технологию безопасного проведения интернет-платежей Verified By Visa, MasterCard SecureCode, MIR Accept, J-Secure для проведения платежа также может потребоваться ввод специального пароля.
+              </p>
+              <p>
+                Настоящий сайт поддерживает 256-битное шифрование. Конфиденциальность сообщаемой персональной информации обеспечивается ПАО СБЕРБАНК. Введенная информация не будет предоставлена третьим лицам за исключением случаев, предусмотренных законодательством РФ. Проведение платежей по банковским картам осуществляется в строгом соответствии с требованиями платежных систем МИР, Visa Int., MasterCard Europe Sprl, JCB.
+              </p>
+            </div>
+          </div>
+          <div class="footer__copyright">
+            <div class="container">        
+              <p>
+                ИП Ермолаев Николай Иванович, ОГРНИП 318583500024541 от 28.04.2018, ИНН 583805739250. Служба поддержки клиентов <a href="tel:+74994904893">+7 499 490-48-93</a>, <a href="mailto:steklo-24@yandex.ru">steklo-24@yandex.ru</a>
+              </p>
+              <p>
+                © СТЕКЛО24.МОСКВА Все права защищены 2013 - 2021гг.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer> -->
 
+    <script src="script.js"></script>
 </html>
