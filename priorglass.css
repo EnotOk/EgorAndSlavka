@@ -1,5 +1,5 @@
 
-/* HEADER */
+
 .container {
     width: 100%;
 }
@@ -305,7 +305,7 @@
   }
 
 
-/* UNDER */
+
 .ggwp {
     height: 1000px;
 }
@@ -313,7 +313,7 @@
 
 
 
-/* FOOTER */
+
 * {
   font-family: Open Sans;
 }
@@ -346,13 +346,13 @@
 	vertical-align: top;
 }
 
-/* Footer left */
+
 
 .footer-distributed .footer-left{
 	width: 40%;
 }
 
-/* The company logo */
+
 
 .footer-distributed h3{
 	color:  #fff;
@@ -364,7 +364,7 @@
 	color:  #fff;
 }
 
-/* Footer links */
+
 
 .footer-distributed .footer-links{
 
@@ -388,7 +388,7 @@
 	margin: 0;
 }
 
-/* Footer Center */
+
 
 .footer-distributed .footer-center{
 	width: 35%;
@@ -446,7 +446,7 @@
   content: none;
 }
 
-/* Footer Right */
+
 
 .footer-distributed .footer-right{
 	width: 20%;
