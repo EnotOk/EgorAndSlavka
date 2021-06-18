@@ -58,6 +58,9 @@ function raschitat() {
     }
     }
  
+
+
+
 function poschitat() {
     tolshina = document.getElementById('tolshina').value;
     switch (tolshina) {
