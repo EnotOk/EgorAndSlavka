@@ -308,6 +308,7 @@
 
 .ggwp {
     height: 1000px;
+    
 }
   
 
@@ -511,3 +512,87 @@
   font-size: 24px;
 }
 
+.input  {
+  width: 250px;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 6px;
+  border-radius: 20px;
+  font-size: 22px;  
+}
+.buttonr {
+  width: 250px;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 6px;
+  border-radius: 20px;
+  border: #222;
+  font-size: 22px;  
+}
+.optiontolsh {
+  width: 250px;
+  height: 50px;
+  margin-bottom: 6px;
+  border-radius: 20px;
+  border: #222;
+  font-size: px;  
+}
+.steklo-back {
+  width: 100%;
+  text-align: center;
+  height: 500px;
+  background-color: #5E769E;
+  
+}
+
+
+
+
+
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards li {
+  border: 2px solid #490A3D;
+  border-radius:5px;
+  background-color: #f0f0f0;
+  color: #222;
+  flex: 1 1 200px;
+}
+
+.cards h2 {
+  background-color: #fff;
+  margin: 0;
+  padding: 10px;
+}
+
+.cards p {
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.flex li {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+  grid-gap: 20px;
+}
