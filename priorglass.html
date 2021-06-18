@@ -54,25 +54,37 @@
 
 <main>
 
-
-
     <div class="steklo-back">
         <div class="steklo-form">
             <div class="steklo-card">
                 <h3>Расчет стоимости стекла</h3>
-                <select id="cvet">
-                    <option value="serii">Зеркало</option>
-                    <option value="geltii">Стекло прозрачное</option>
-                    <option value="goluboi">Стекло осветленное</option>
-                    <option value="goluboi">Cтекло закаленное</option>
-                    <option value="goluboi">Cтекло триплекс</option>
-                    <option value="goluboi">Cтекло армированное</option>
-                    <option value="goluboi">Cтекло стемалит</option>
-                    <option value="goluboi">Cтеклопакет</option>
-                    <option value="goluboi">Cтекло тонированное</option>
+                <select id="stekla">
+                    <option value="zerkalo">Зеркало</option>
+                    <option value="prozrachnoe">Стекло прозрачное</option>
+                    <option value="osvetlennoe">Стекло осветленное</option>
+                    <option value="zakalennoe">Cтекло закаленное</option>
+                    <option value="triplex">Cтекло триплекс</option>
+                    <option value="armirovannoe">Cтекло армированное</option>
+                    <option value="stemalit">Cтекло стемалит</option>
+                    <option value="steklopaket">Cтеклопакет</option>
+                    <option value="tonirovannoe">Cтекло тонированное</option>
                 </select>
+                
+                <select id="tolshina">
+                    <option value="3mm">3мм</option>
+                    <option value="4mm">4мм</option>
+                    <option value="5mm">5мм</option>
+                    <option value="6mm">6мм</option>
+                    <option value="8mm">8мм</option>
+                    <option value="10mm">10мм</option>
+                    <option value="12mm">12мм</option>
+                    <option value="15mm">15мм</option>
+                    <option value="19mm">19мм</option>
+                </select>
+
                     <input type="text" id="shirina" value="" placeholder="укажите ширину">
-                    <input type="text" id="dlina" value="" placeholder="укажите длину">
+                    <input type="text" id="dlina" value="" placeholder="укажите высоту">
+
                     <button onclick="raschitat();">Рассчитать стоимость</button>
                     <div id="ploschad"></div>
                 <div id="stoimost"></div>
