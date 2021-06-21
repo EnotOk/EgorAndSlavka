@@ -1,3 +1,4 @@
+// СЛАВА
 function raschitat() {
     stekla  = document.getElementById('stekla').value;
     switch (stekla) {
