@@ -1,12 +1,12 @@
 option,span,a,p,h1,h2,h3,h4 {
   font-family: 'Roboto', sans-serif;
 }
-
+/* СЛАВИН КОД */
 .container {
     width: 100%;
 }
 .header {
-    background-color: #636C78;
+  background: radial-gradient(circle, rgba(19,19,19,1) 18%, rgba(15,15,15,1) 100%);
     background-size:cover;
     padding-bottom:80px;
 }
@@ -313,7 +313,7 @@ option,span,a,p,h1,h2,h3,h4 {
 
 
 .ggwp {
-    height: 1000px;
+    height: 700px;
     width: 100%;
     
 }
@@ -326,16 +326,7 @@ option,span,a,p,h1,h2,h3,h4 {
   font-family: Open Sans;
 }
 
-/* section {
-  width: 100%;
-  display: inline-block;
-  background: #222;
-  height: 50vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
-} */
+
 
 .footer-distributed{
 	background: radial-gradient(circle, rgba(18,18,18,1) 18%, rgba(15,15,15,1) 100%);
@@ -515,10 +506,12 @@ option,span,a,p,h1,h2,h3,h4 {
 
 
 
+/* КОД ЕГОРА */
 
 
-
-
+.stekloh1 {
+  margin-top: 40px;
+}
 
 .map {
   display: block;
@@ -677,6 +670,7 @@ option,span,a,p,h1,h2,h3,h4 {
   color: #155096;
   text-decoration: underline;
 }
+
 .amazing-reviews blockquote span:last-of-type {
   color: #e47d21;
   font-size: 10pt;
